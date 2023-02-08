@@ -1,11 +1,11 @@
 {
   "name": "aiv",
   "version": "1.0.0",
-  "description":"Painter's homepage",
+  "description": "Painter's homepage",
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build":"parcel build index.html --dist.dir ./dist"
+    "build": "parcel build index.html"
   },
   "author": "Matias Pitkalahti",
   "license": "ISC",
@@ -29,6 +29,7 @@
     "color-convert": "^2.0.1",
     "color-name": "^1.1.4",
     "commander": "^7.2.0",
+    "core-js": "^3.27.2",
     "cosmiconfig": "^7.1.0",
     "css-select": "^4.3.0",
     "css-tree": "^1.1.3",
