@@ -45,6 +45,13 @@ btnCloseModal.addEventListener("click", function () {
   modalEl.remove();
 });
 
+// Close Modal click on overlay
+modal.addEventListener("click", function () {
+  const modalEl = document.getElementById("modal");
+  modal.classList.add("hidden");
+  modalEl.remove();
+});
+
 // Close Modal ESC key
 document.addEventListener("keydown", (e) => {
   const modalEl = document.getElementById("modal");
