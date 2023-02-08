@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="bg-FIN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Antti Into Virtanen, taidegalleria" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img pakattu/bullfinch.png" />
+    <link rel="apple-touch-icon" href="img pakattu/bullfinch.png" />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="CSS/gallery.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="JS/gallery.js" defer></script>
+
+    <script src="JS/loader.js" defer></script>
+
+    <title>AIV &mdash; taidegalleria</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="main-header" id="PageUp">
+        <div class="nav-bar">
+          <div class="main-text">
+            <a class="main-nav-text" href="/index.html">Antti Into Virtanen</a>
+          </div>
+          <div class="main-text">
+            <a class="main-nav-link" href="/index.html">Etusivu</a>
+            <a class="main-nav-link" href="/contact.html">Yhteystiedot</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-gallery">
+        <div class="container-gallery">
+          <img
+            class="gallery-logo"
+            alt="Punatulkku"
+            src="img pakattu/bullfinch.png"
+          />
+          <h2 class="heading-primary">Taidegalleria</h2>
+        </div>
+
+        <div class="container-gallery gallery-rows">
+          <!-- MODAL -->
+          <div class="operations__content modal hidden">
+            <button class="close-modal">&times;</button>
+            <!-- <img
+              class="img-modal"
+              alt="#"
+              src="/img pakattu/1.jpg"
+              onContextMenu="return false;"
+            /> -->
+          </div>
+
+          <!-- ROW 1 -->
+          <div class="operations__gallery-row1 gallery-row1">
+            <!-- IMG 1 -->
+            <figure class="gallery-item">
+              <div data-tab="1" class="gallery-img--container">
+                <img
+                  class="gallery-img"
+                  alt="#"
+                  src="/img pakattu/1.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Lennokas ilta</h3>
+                  <p>60x120cm 2016</p>
+                  <p>3 800 &#8364;</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 2 -->
+            <figure class="gallery-item">
+              <div data-tab="2" class="gallery-img--container">
+                <img
+                  class="gallery-img"
+                  alt="#"
+                  src="/img pakattu/2.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 3 -->
+            <figure class="gallery-item">
+              <div data-tab="3" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Talven rippeet v.2017 (Öljy kankaalle koko 50cm x 100cm)  Hinta 4800,-e.jpg"
+                  data-src="/img pakattu/3.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Talven rippeet</h3>
+                  <p>50x100cm 2017</p>
+                  <p>4800 &#8364;</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 4 -->
+            <figure class="gallery-item">
+              <div data-tab="4" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Muisto Vilnasta v.2020 (Öljy puulle 60cmx40cm.) h.2500,-e.jpg"
+                  data-src="/img pakattu/4.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 5 -->
+            <figure class="gallery-item">
+              <div data-tab="5" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Mörkö v.2019 (Öljy kankaalle koko 40cmx30cm)  Hinta 2200.-e.jpg"
+                  data-src="/img pakattu/2.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 6 -->
+            <figure class="gallery-item">
+              <div data-tab="6" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Talven rippeet v.2017 (Öljy kankaalle koko 50cm x 100cm)  Hinta 4800,-e.jpg"
+                  data-src="/img pakattu/3.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+          </div>
+
+          <!-- ROW 2 -->
+          <div class="operations__gallery-row2 gallery-row2">
+            <!-- IMG 1 -->
+            <figure class="gallery-item">
+              <div data-tab="4" class="gallery-img--container">
+                <img
+                  class="gallery-img"
+                  alt="#"
+                  src="/img pakattu/4.jpg"
+                  onContextMenu="return false;"
+                />
+                <!-- Muista vaihtaa oikea data-tab numero (7) -->
+
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 2 -->
+            <figure class="gallery-item">
+              <div data-tab="8" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy//Mörkö v.2019 (Öljy kankaalle koko 40cmx30cm)  Hinta 2200.-e.jpg"
+                  data-src="/img pakattu/2.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 3 -->
+            <figure class="gallery-item">
+              <div data-tab="9" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Talven rippeet v.2017 (Öljy kankaalle koko 50cm x 100cm)  Hinta 4800,-e.jpg"
+                  data-src="/img pakattu/3.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 4 -->
+            <figure class="gallery-item">
+              <div data-tab="10" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Muisto Vilnasta v.2020 (Öljy puulle 60cmx40cm.) h.2500,-e.jpg"
+                  data-src="/img pakattu/4.jpg"
+                  onContextMenu="return false;"
+                />
+
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 5 -->
+            <figure class="gallery-item">
+              <div data-tab="11" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Lennokas ilta v.2016 (Öljy kankaalle 60cmx120cm) h.3800,-e .jpg"
+                  data-src="/img pakattu/1.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+
+            <!-- IMG 6 -->
+            <figure class="gallery-item">
+              <div data-tab="12" class="gallery-img--container">
+                <img
+                  class="gallery-img lazy-img"
+                  alt="#"
+                  src="/img lazy/Mörkö v.2019 (Öljy kankaalle koko 40cmx30cm)  Hinta 2200.-e.jpg"
+                  data-src="/img pakattu/2.jpg"
+                  onContextMenu="return false;"
+                />
+                <div class="img-item__info">
+                  <h3>Title here</h3>
+                  <p>This is a caption line</p>
+                </div>
+              </div>
+            </figure>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container grid grid-footer">
+        <div class="footer-copyright logo-col">
+          <a href="#PageUp" class="footer-logo">
+            <img
+              class="logo"
+              alt="Euroasian bullfinch"
+              src="img pakattu/Logo.jpeg"
+            />
+          </a>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2023</span> by Antti Into
+            Virtanen, Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="icon-col social-links">
+          <!-- ADRESS -->
+          <div class="footer-nav">
+            <a
+              class="footer-link"
+              href="https://www.google.com/maps/place/Taidemaalari+Antti+Into+Virtanen/@61.1663414,24.7720157,17z/data=!3m1!4b1!4m5!3m4!1s0x468e4e2a86063fc5:0x85dee8930b72682d!8m2!3d61.1663347!4d24.7742136"
+              ><ion-icon
+                class="social-icon"
+                name="storefront-outline"
+              ></ion-icon
+            ></a>
+            <address class="contacts">
+              <a
+                class="footer-link"
+                href="https://www.google.com/maps/place/Taidemaalari+Antti+Into+Virtanen/@61.1663414,24.7720157,17z/data=!3m1!4b1!4m5!3m4!1s0x468e4e2a86063fc5:0x85dee8930b72682d!8m2!3d61.1663347!4d24.7742136"
+                >Mikonpolku 7, 14870 Tuulos</a
+              >
+            </address>
+          </div>
+
+          <!-- PHONE NUMBER -->
+          <div class="footer-nav">
+            <a class="footer-link" href="tel:+358400811577">
+              <ion-icon class="social-icon" name="call-outline"></ion-icon>
+            </a>
+            <address class="contacts">
+              <a class="footer-link" href="tel:+358400811577"
+                >+358 400 811 577</a
+              ><br />
+            </address>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="footer-nav">
+            <a class="footer-link" href="mailto:into.antti@gmail.com">
+              <ion-icon class="social-icon" name="mail-outline"></ion-icon>
+            </a>
+            <address class="contacts">
+              <a class="footer-link" href="mailto:into.antti@gmail.com"
+                >into.antti@gmail.com</a
+              >
+            </address>
+          </div>
+
+          <!-- BUSINESS -->
+          <div class="footer-nav">
+            <ion-icon class="social-icon" name="briefcase-outline"></ion-icon>
+            <address class="contacts">
+              <p class="address">Y-Tunnus: 1666042-5</p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <div class="loader">
+      <iframe
+        src="https://giphy.com/embed/cXimk6ZSzkHbpA8j7Z"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>

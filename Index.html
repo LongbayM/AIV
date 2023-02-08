@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="bg-FIN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Antti Into Virtanen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img pakattu/bullfinch.png" />
+    <link rel="apple-touch-icon" href="img pakattu/bullfinch.png" />
+    <link rel="stylesheet" href="CSS/general.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script defer src="JS/script.js"></script>
+
+    <script src="JS/loader.js" defer></script>
+
+    <title>Antti Into Virtanen &mdash; Taidemaalari</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="main-header">
+        <div class="nav-bar">
+          <div class="main-text">
+            <a class="main-nav-text" href="/index.html">Antti Into Virtanen</a>
+          </div>
+          <div class="main-text">
+            <a class="main-nav-link" href="/gallery.html">Galleria</a>
+            <a class="main-nav-link" href="/contact.html">Yhteystiedot</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-slideshow">
+            <!--SLIDE 1-->
+            <div
+              class="heroBackground fade"
+              style="background-image: url('img pakattu/1.jpg')"
+            >
+              <h1 class="hero-text heading-primary">Lennokas ilta 2016</h1>
+            </div>
+
+            <!--SLIDE 2-->
+            <div
+              class="heroBackground fade"
+              style="background-image: url('img pakattu/3.jpg')"
+            >
+              <!-- <img
+                class="index-logo"
+                alt="Punatulkku"
+                src="img pakattu/bullfinch.png"
+              /> -->
+              <h1 class="hero-text heading-primary">Talven rippeet 2017</h1>
+            </div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </section>
+    </main>
+    <div class="loader">
+      <iframe
+        src="https://giphy.com/embed/cXimk6ZSzkHbpA8j7Z"
+        frameborder="0"
+        class="giphy-embed"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
