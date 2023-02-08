@@ -1,7 +1,17 @@
 {
   "name": "aiv",
   "version": "1.0.0",
-  "main": "index.js",
+  "description":"Painter's homepage",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html --dist.dir ./dist"
+  },
+  "author": "Matias Pitkalahti",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
     "acorn": "^8.8.2",
@@ -99,14 +109,5 @@
     "weak-lru-cache": "^1.2.2",
     "xxhash-wasm": "^0.4.2",
     "yaml": "^1.10.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "parcel": "^2.8.3"
-  },
-  "author": "Matias Pitkalahti",
-  "license": "ISC",
-  "description": ""
+  }
 }
